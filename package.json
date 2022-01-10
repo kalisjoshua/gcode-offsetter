@@ -1,0 +1,12 @@
+{
+  "name": "gcode-offsetter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {},
+  "keywords": [],
+  "author": "Matt Coon",
+  "license": "MIT",
+  "devDependencies": {}
+}

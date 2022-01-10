@@ -1,0 +1,47 @@
+/* app styles */
+:root {
+  --gunmetal: #283644;
+  --sand: #e6d3a8;
+  --slate: #4d727e;
+  --taupe: #7a635a;
+}
+
+html {
+  background: var(--gunmetal);
+  font-family: sans-serif;
+}
+
+aside {
+  color: white;
+}
+
+main {
+  background: white;
+}
+
+input,
+label,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0 1ex;
+  width: 100%;
+}
+
+textarea {
+  height: 8em;
+}
+
+.formField {
+  padding: 2ex;
+}
+
+@media (min-width: 450px) {
+  .inlineFields {
+    display: flex;
+  }
+
+  .inlineFields > .formField {
+    flex: 1 0 33%;
+  }
+}
